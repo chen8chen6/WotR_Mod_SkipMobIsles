@@ -1,0 +1,10 @@
+{
+  "Id": "SkipMobIsles",
+  "DisplayName": "Skip Mob Isles",
+  "Author": "chen8chen6",
+  "Version": "1.0.0",
+  "ManagerVersion": "0.27.11",
+  "Requirements": [],
+  "AssemblyName": "SkipMobIsles.dll",
+  "EntryMethod": "SkipMobIsles.Main.Load"
+}
