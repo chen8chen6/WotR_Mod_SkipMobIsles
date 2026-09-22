@@ -27,6 +27,11 @@ Method 2:
 
 3. Click "Mods" label on top, then click "Install Mods" button. Select "SkipMobIsles.zip".
 
+# Log
+
+V1.0.1 - 20260922
+
+	Add [Rod of Magic Affinity] and [Greater Quicken Metamagic Rod] to map2 rewards. (I thought these items appeared in my inventory since Owlcat unequiped them from my boby, but nope, they were loots from those mob isles. The rods I equiped were devoured by the hungry Owlcat)
 
 # WotR_Mod_SkipMobIsles
 
@@ -55,3 +60,9 @@ https://www.bilibili.com/video/BV1pWhi6HEHG/
 2. 启动UnityModManager, Game栏选择Pathfinder: Wrath of the Righteous, Folder栏选择游戏安装目录(例: D:\SteamLibrary\steamapps\common\Pathfinder Second Adventure\), 然后点击"Install"按钮.
 
 3. 点击上方"Mods"标签, 选择"Install Mods", 在弹出的对话框中选择"SkipMobIsles.zip"
+
+# Log
+
+V1.0.1 - 20260922
+
+	第二张地图的奖励补上"魔法亲和权杖"和"高等瞬发超魔魔杖". (我本来以为背包里这两道具是猫头猫从我装备栏里卸下来的, 结果一查是正经掉落. 我装备栏里的两根魔杖是被虫群猫头猫吃掉的.)

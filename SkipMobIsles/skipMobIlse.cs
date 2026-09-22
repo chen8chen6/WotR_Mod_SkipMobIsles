@@ -151,6 +151,8 @@ namespace SkipMobIsles
         };
 
         private static string[] T2_Reward_Items = {
+            "340cf8ee69c5458c99ecd21daf082704",
+            "843ae85d505be8441b9fbb47b04e19e0",
             "551dcb2932443c944a6f120048c7d9f7",
             "6a20e0aef61e4e29990b4c805cc0baa6",
             "9a511d3b04f08944eb3db4462f88c2c0",

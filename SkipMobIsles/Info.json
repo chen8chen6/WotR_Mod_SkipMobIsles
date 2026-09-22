@@ -2,9 +2,10 @@
   "Id": "SkipMobIsles",
   "DisplayName": "Skip Mob Isles",
   "Author": "chen8chen6",
-  "Version": "1.0.0",
+  "Version": "1.0.1",
   "ManagerVersion": "0.27.11",
   "Requirements": [],
   "AssemblyName": "SkipMobIsles.dll",
-  "EntryMethod": "SkipMobIsles.Main.Load"
+  "EntryMethod": "SkipMobIsles.Main.Load",
+  "HomePage": "https://github.com/chen8chen6/WotR_Mod_SkipMobIsles/"
 }
