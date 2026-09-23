@@ -33,6 +33,12 @@ V1.0.1 - 20260922
 
 	Add [Rod of Magic Affinity] and [Greater Quicken Metamagic Rod] to map2 rewards. (I thought these items appeared in my inventory since Owlcat unequiped them from my boby, but nope, they were loots from those mob isles. The rods I equiped were devoured by the hungry Owlcat)
 
+V1.0.2 - 20260923
+
+	Update loot list based on a GameSpot walkthrough ("The Treasure of the Midnight Isles - Pathfinder_ Wrath of the Righteous Walkthrough & Guide").
+	
+	Now users are able to choose to NOT get xp/gold rewards on mod setting page.
+
 # WotR_Mod_SkipMobIsles
 
 可跳过杂兵岛直接登陆Boss所在岛屿, 同时获取途中的xp, 金币和独特物品(非独特物品折算成金币). 所以丢不了七罪法袍和高奏凯歌戒指.
@@ -66,3 +72,9 @@ https://www.bilibili.com/video/BV1pWhi6HEHG/
 V1.0.1 - 20260922
 
 	第二张地图的奖励补上"魔法亲和权杖"和"高等瞬发超魔魔杖". (我本来以为背包里这两道具是猫头猫从我装备栏里卸下来的, 结果一查是正经掉落. 我装备栏里的两根魔杖是被虫群猫头猫吃掉的.)
+
+V1.0.2 - 20260923
+
+	根据GameSpot的流程记录《The Treasure of the Midnight Isles - Pathfinder_ Wrath of the Righteous Walkthrough & Guide》对战利品列表进行补遗.
+	
+	可以在mod设置页面选择不获取xp/金币. 
