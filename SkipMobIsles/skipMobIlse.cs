@@ -15,6 +15,8 @@ namespace SkipMobIsles
 {
     internal class skipMobIlse
     {
+        public static Settings Settings => Main.Settings;
+
         [HarmonyPatch(typeof(DungeonIslandState), nameof(DungeonIslandState.MayBeVisitedNow), MethodType.Getter)]
         public static class DungeonIslandState_MayBeVisitedNow_Patch
         {
@@ -92,8 +94,12 @@ namespace SkipMobIsles
             MarkIslandsCompleted(first);    //将boss以外的岛标记为completed
 
             //添加奖励
-            Game.Instance.Player.GainMoney(rewardGold);
-            Game.Instance.Player.GainPartyExperience(rewardXp);
+            if (Settings.enableReward_gold)
+                Game.Instance.Player.GainMoney(rewardGold);
+            
+            if (Settings.enableReward_xp)
+                Game.Instance.Player.GainPartyExperience(rewardXp);
+
             AddItems(rewardItems);
         }
 
