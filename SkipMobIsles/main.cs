@@ -37,6 +37,7 @@ namespace SkipMobIsles
 
         static void OnGUI(UnityModManager.ModEntry modEntry)
         {
+            //enable reward options
             GUILayout.BeginHorizontal();
             GUILayout.Space(20);
             GUILayout.Label("Enable Rewards: ", GUILayout.ExpandWidth(false));
@@ -45,6 +46,16 @@ namespace SkipMobIsles
             Settings.enableReward_xp = GUILayout.Toggle(Settings.enableReward_xp, " XP", GUILayout.ExpandWidth(false));
             GUILayout.Space(50);
             Settings.enableReward_gold = GUILayout.Toggle(Settings.enableReward_gold, " Gold", GUILayout.ExpandWidth(false));
+
+            GUILayout.EndHorizontal();
+
+            //enable "skip isles in Roughlike" option
+            GUILayout.BeginHorizontal();
+            GUILayout.Space(20);
+            GUILayout.Label("Skip isles in roughlike campaign: ", GUILayout.ExpandWidth(false));
+
+            GUILayout.Space(22);
+            Settings.skipIslesInRoughlike = GUILayout.Toggle(Settings.skipIslesInRoughlike, " ", GUILayout.ExpandWidth(false));
 
             GUILayout.EndHorizontal();
         }

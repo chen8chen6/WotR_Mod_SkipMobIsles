@@ -90,4 +90,8 @@ namespace SkipMobIsles
         public static string Withered_Ruby_Fruit = "c091dfe19cd44c6eb8ec6e3ea7e5c67c";
     }
 
+    static public class Campaign
+    {
+        public static string MainCampaign = "fd2e11ebb8a14d6599450fc27f03486a";
+    }
 }

@@ -3,6 +3,7 @@ using Kingmaker;
 using Kingmaker.AreaLogic.Etudes;
 using Kingmaker.Blueprints;
 using Kingmaker.Blueprints.Items;
+using Kingmaker.Blueprints.Root;
 using Kingmaker.Dungeon;
 using Kingmaker.Utility;
 using System;
@@ -22,6 +23,10 @@ namespace SkipMobIsles
         {
             private static void Postfix(DungeonIslandState __instance, ref bool __result)
             {
+                //仅对主战役生效, RoughLike模式(在设定如此时)不跳过旅途
+                if (!Settings.skipIslesInRoughlike && !IsMainCampaign())
+                    return;
+
                 //检测当前阶段, 自动完成剩余旅途
                 if (IsT3())
                     FastTravel(Etude.T3_Island_1, Etude.T3_Island_6, T3_Reward_Gold, T3_Reward_XP, T3_Reward_Items);
@@ -196,5 +201,11 @@ namespace SkipMobIsles
             Item.Cloth_of_Heavy_Fortification,
             Item.Ring_of_Shadow_Stealing,
         };
+
+        private static bool IsMainCampaign()
+        {
+            BlueprintCampaign mainCampaign = ResourcesLibrary.TryGetBlueprint<BlueprintCampaign>(Campaign.MainCampaign);
+            return Game.Instance.Player.Campaign == mainCampaign;
+        }
     }
 }

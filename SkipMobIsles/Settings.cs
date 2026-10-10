@@ -6,6 +6,7 @@ namespace SkipMobIsles
     {
         public bool enableReward_xp = true;
         public bool enableReward_gold = true;
+        public bool skipIslesInRoughlike = false;
 
         public override void Save(UnityModManager.ModEntry modEntry)
         {

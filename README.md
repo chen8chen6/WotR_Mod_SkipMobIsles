@@ -39,6 +39,10 @@ V1.0.2 - 20260923
 	
 	Now users are able to choose to NOT get xp/gold rewards on mod setting page.
 
+v1.0.3 - 20261010
+
+	Now users can play roughlike mode without skipping isles. Just in case, users can choose to skip isles even in roughlike mode on mod setting page.
+
 # WotR_Mod_SkipMobIsles
 
 可跳过杂兵岛直接登陆Boss所在岛屿, 同时获取途中的xp, 金币和独特物品(非独特物品折算成金币). 所以丢不了七罪法袍和高奏凯歌戒指.
@@ -78,3 +82,7 @@ V1.0.2 - 20260923
 	根据GameSpot的流程记录《The Treasure of the Midnight Isles - Pathfinder_ Wrath of the Righteous Walkthrough & Guide》对战利品列表进行补遗.
 	
 	可以在mod设置页面选择不获取xp/金币. 
+
+v1.0.3 - 20261010
+
+	Roughlike模式下不再生效. 以防万一, 可以在mod设置页面选择Roughlike模式下也生效.
